@@ -1,15 +1,48 @@
 site_name: My Docs
+
+nav:
+  - Home: index.md
+  - About: about.md
+
 theme:
   name: material
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+    - content.code.copy
+    - content.code.annotation
+    - content.tabs.link
+  language: en
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/masandwidi
+      link: https://github.com/msandwidi
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/mahamoudou-sandwidi
       
-
 copyright: |
   &copy; 2024 <a href="https://github.com/masandwidi" target="_blank" rel="noopener">Mahamoudou Sandwidi</a>
   
