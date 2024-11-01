@@ -1,0 +1,15 @@
+site_name: My Docs
+theme:
+  name: material
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/masandwidi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mahamoudou-sandwidi
+      
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/masandwidi" target="_blank" rel="noopener">Mahamoudou Sandwidi</a>
+  
