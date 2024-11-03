@@ -1,12 +1,18 @@
-site_name: My Docs
+site_name: Mahamoudou Sandwidi
+site_author: Mahamoudou Sandwidi
 
 nav:
   - Home: index.md
   - About: about.md
+  - blog: blog/index.md
 
 theme:
   name: material
   features:
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
     - navigation.top
     - navigation.tabs
     - navigation.sections
@@ -46,3 +52,11 @@ extra:
 copyright: |
   &copy; 2024 <a href="https://github.com/masandwidi" target="_blank" rel="noopener">Mahamoudou Sandwidi</a>
   
+# Plugins
+plugins:
+  - tags
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
