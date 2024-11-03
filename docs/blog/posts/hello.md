@@ -1,6 +1,7 @@
 ---
 title: Adding a badge to your project
 date: 2023-11-30
+authors: [mamadou]
 slug: adding-a-badge-to-your-project
 description: >
   Share the love – you can now add a badge to your README, showing that your project is built with Material for MkDocs

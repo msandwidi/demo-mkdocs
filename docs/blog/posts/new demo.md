@@ -1,5 +1,6 @@
 ---
 date: 2024-01-31
+authors: [mamadou]
 categories:
   - Blog
   - AWS
